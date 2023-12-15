@@ -1,0 +1,101 @@
+/********************complete page********/
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+
+}
+
+.main-page{
+    display: flex;
+    height: 100vh;
+}
+
+/**************side line************/
+
+.side-line{
+    background-color: #75c8ec;
+    height: 100%;
+    width: 25px;
+}
+/**************side bar************/
+.side-bar{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(243, 239, 239);
+    height: 100%;
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    box-shadow: 1px 1px 10px rgb(139, 137, 137);
+
+
+}
+
+.circle{
+    height: 75px;
+    width: 75px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(139, 137, 137);
+}
+
+.blue-circle{
+    background-color: #75c8ec;
+}
+
+/**************right panel************/
+.right-panel{
+    background-color: rgb(249, 250, 249);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/**************header************/
+.header{
+    background-color: #75c8ec;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(139, 137, 137);
+
+}
+.empty-side{
+    padding-left: 100px;
+}
+h1{
+    padding-right: 600px;
+    color: #f9f6f6;
+}
+/**************frame-container************/
+.tablet-container{
+    background-color: #f9f6f6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#tablet-image{
+    position: absolute;
+}
+#main-canvas{
+    position: absolute;
+    background-image: url(omrscan.png);
+    
+}

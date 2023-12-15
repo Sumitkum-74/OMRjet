@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    max-width:60rem;
+    margin: 0 auto;
+  }
+  .head{
+ text-align: center;
+ background-color: aqua;
+ color: black;
+  }
+  header {
+    background-color:#E0F3F2;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #7C7C7F;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #999;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+section h2 {
+    margin-left: 250px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+section h2 {
+    margin-top: 1px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid
+}
